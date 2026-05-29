@@ -114,6 +114,42 @@ export const doctors = [
     socialLabel: "@dr.victorlappost",
     socialUrl: "https://www.instagram.com/dr.victorlappost",
   },
+  {
+    name: "Dr. Jeffry Campusano",
+    role: "Odontologia general y cuidado integral",
+    bio: "Parte del equipo clinico de AquaZul, aporta dedicacion, trato cercano y compromiso diario con el cuidado de las sonrisas de nuestros pacientes.",
+    initials: "JC",
+    image: "/images/dr-jeffry-campusano.png",
+    socialLabel: "@jeffryfranciscocampusano",
+    socialUrl: "https://www.instagram.com/jeffryfranciscocampusano",
+  },
+  {
+    name: "Dra. Paola Ubiera",
+    role: "Odontologia general y atencion preventiva",
+    bio: "Reconocida por su energia, delicadeza y vocacion de servicio, acompana a cada paciente con una atencion clara, humana y orientada a sonrisas saludables.",
+    initials: "PU",
+    image: "/images/dra-paola-ubiera.png",
+    socialLabel: "@aquazulcod",
+    socialUrl: "https://www.instagram.com/aquazulcod",
+  },
+  {
+    name: "Dra. Aylin Escrogen",
+    role: "Restauracion en resina compuesta y fotografia dental",
+    bio: "Egresada de la Universidad Central del Este, se especializa en restauraciones esteticas en resina compuesta y fotografia dental para cuidar cada detalle de la sonrisa.",
+    initials: "AE",
+    image: "/images/dra-aylin-escrogen.png",
+    socialLabel: "@aquazulcod",
+    socialUrl: "https://www.instagram.com/aquazulcod",
+  },
+  {
+    name: "Dr. Evelio Sanchez",
+    role: "Cirugia bucal e implantes dentales",
+    bio: "Odontologo egresado de UNIBE, con maestria en Cirugia Bucal e Implantes Dentales. Enfoca su practica en soluciones avanzadas para devolver confianza y funcion.",
+    initials: "ES",
+    image: "/images/dr-evelio-sanchez.png",
+    socialLabel: "@aquazulcod",
+    socialUrl: "https://www.instagram.com/aquazulcod",
+  },
 ];
 
 export const trustMarkers = [

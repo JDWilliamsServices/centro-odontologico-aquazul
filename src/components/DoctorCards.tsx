@@ -9,7 +9,7 @@ export function DoctorCards() {
           key={doctor.name}
           className="overflow-hidden rounded-3xl border border-aqua-100 bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-soft"
         >
-          <div className="relative aspect-[4/3] overflow-hidden bg-[linear-gradient(135deg,#cffafe,#ffffff_55%,#0e7490)]">
+          <div className="relative aspect-[4/5] overflow-hidden bg-[linear-gradient(135deg,#cffafe,#ffffff_55%,#0e7490)]">
             <img
               src={doctor.image}
               alt={`${doctor.name} en Centro Odontologico AquaZul`}
