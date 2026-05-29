@@ -13,24 +13,27 @@ import {
 export const site = {
   name: "Centro Odontologico AquaZul",
   shortName: "AquaZul",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://aquazul.jdintellicore.com",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://aquazul.jdintellicore.com",
   description:
     "Clinica dental moderna en La Romana, Republica Dominicana, especializada en odontologia estetica, preventiva, restauradora e implantologia.",
-  location: "La Romana, Republica Dominicana",
-  phone: "+1 (809) 555-0100",
+  location: "Calle Dr. Gonzalvo, Downtown Plaza, Suite 103, La Romana, RD",
+  phone: "+1 (809) 770-7289",
   email: "aquazulcod@gmail.com",
   instagram: "@aquazulcod",
   manager: "Dr. Victor Lappost",
-  address: "La Romana, Republica Dominicana",
+  address:
+    "Calle Dr. Gonzalvo, Downtown Plaza, Suite 103, La Romana, Republica Dominicana",
   calendlyUrl:
     process.env.NEXT_PUBLIC_CALENDLY_URL || "https://calendly.com/aquazul/consulta",
   googleCalendarUrl:
     process.env.NEXT_PUBLIC_GOOGLE_CALENDAR_URL ||
     "https://calendar.google.com/calendar/u/0/r/eventedit",
-  whatsappUrl: process.env.NEXT_PUBLIC_WHATSAPP_URL || "https://wa.me/18095550100",
+  whatsappUrl: process.env.NEXT_PUBLIC_WHATSAPP_URL || "https://wa.me/18097707289",
   mapsEmbedUrl:
     process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL ||
-    "https://www.google.com/maps?q=La%20Romana%2C%20Dominican%20Republic&output=embed",
+    "https://www.google.com/maps?q=Calle%20Dr.%20Gonzalvo%2C%20Downtown%20Plaza%2C%20Suite%20103%2C%20La%20Romana%2C%20Dominican%20Republic&output=embed",
 };
 
 export const navigation = [
@@ -94,22 +97,22 @@ export const services = [
 
 export const doctors = [
   {
-    name: "Dra. Camila Rivera",
-    role: "Odontologia estetica y rehabilitacion oral",
-    bio: "Enfoque en sonrisas naturales, planificacion digital y restauraciones de alta precision.",
-    initials: "CR",
+    name: "Dra. Juliana Rodriguez",
+    role: "Ortodoncia y ortopedia maxilar",
+    bio: "Formada en UNIBE, acompana a pacientes de La Romana con planes de alineacion, salud funcional y estetica dental.",
+    initials: "JR",
+    image: "/images/dr-juliana-rodriguez.png",
+    socialLabel: "@julianarodz",
+    socialUrl: "https://www.instagram.com/julianarodz",
   },
   {
-    name: "Dr. Adrian Mendez",
-    role: "Implantologia y cirugia oral",
-    bio: "Tratamientos quirurgicos conservadores con protocolos de recuperacion clara y segura.",
-    initials: "AM",
-  },
-  {
-    name: "Dra. Valentina Reyes",
-    role: "Ortodoncia y odontologia preventiva",
-    bio: "Cuidado familiar, alineadores y planes preventivos pensados para cada etapa.",
-    initials: "VR",
+    name: "Dr. Victor Lappost",
+    role: "Rehabilitacion bucal, implantes y gestion clinica",
+    bio: "Odontologo graduado con el mayor indice de UNIBE. Cuenta con doble maestria en Rehabilitacion Bucal e Implantes Dentales y en Administracion de Clinicas Dentales, con formacion en Mexico y Chicago.",
+    initials: "VL",
+    image: "/images/dr-victor-lappost.png",
+    socialLabel: "@dr.victorlappost",
+    socialUrl: "https://www.instagram.com/dr.victorlappost",
   },
 ];
 
