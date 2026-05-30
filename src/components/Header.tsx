@@ -14,18 +14,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-aqua-100/80 bg-pearl/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
-        <Link href="/" className="flex items-center gap-3" aria-label="AquaZul inicio">
-          <span className="grid h-11 w-11 place-items-center rounded-full bg-aqua-700 text-lg font-bold text-white shadow-soft">
-            AZ
-          </span>
-          <span>
-            <span className="block text-base font-semibold leading-tight text-ink">
-              AquaZul
-            </span>
-            <span className="block text-xs font-medium uppercase tracking-[0.18em] text-aqua-700">
-              Centro Odontologico
-            </span>
-          </span>
+        <Link href="/" className="flex items-center" aria-label="AquaZul inicio">
+          <img
+            src="/images/aquazul-logo.png"
+            alt="AquaZul Centro Odontologico"
+            className="h-12 w-auto md:h-14"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Navegacion principal">

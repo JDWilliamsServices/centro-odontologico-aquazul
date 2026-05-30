@@ -28,7 +28,7 @@ const config: Config = {
         soft: "0 24px 70px rgba(8, 51, 68, 0.12)",
       },
       fontFamily: {
-        sans: ["var(--font-geist-sans)", "Inter", "system-ui", "sans-serif"],
+        sans: ["Montserrat", "Avenir Next", "Segoe UI", "system-ui", "sans-serif"],
       },
     },
   },

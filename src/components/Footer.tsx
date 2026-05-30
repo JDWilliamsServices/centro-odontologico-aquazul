@@ -7,11 +7,12 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 md:grid-cols-[1.2fr_0.8fr_0.8fr] lg:px-8">
         <div>
           <div className="flex items-center gap-3">
-            <span className="grid h-11 w-11 place-items-center rounded-full bg-aqua-700 text-lg font-bold text-white">
-              AZ
-            </span>
+            <img
+              src="/images/aquazul-logo.png"
+              alt="AquaZul Centro Odontologico"
+              className="h-14 w-auto"
+            />
             <div>
-              <p className="font-semibold text-ink">{site.name}</p>
               <p className="text-sm text-slate-500">{site.location}</p>
             </div>
           </div>
