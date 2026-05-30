@@ -2,7 +2,7 @@
 
 Modern Spanish-first dental clinic website for Centro Odontologico AquaZul in La Romana, Dominican Republic.
 
-Production domain target: `https://aquazul.jdintellicore.com`
+Production demo URL: `https://centro-odontologico-aquazul.netlify.app`
 
 ## Stack
 
@@ -48,6 +48,8 @@ The CRM starts with local sample data for Centro Odontologico AquaZul and can be
 
 Future CRM integrations should use server-side environment variables and API routes so private keys are never exposed in the browser.
 
+To update the local CRM sample data, edit `src/lib/crmData.js`. That file controls the current lead profile, project needs, follow-ups, meeting notes, proposal status, and demo checklist.
+
 ## Environment Variables
 
 Use `.env.example` as the source of truth for local and Netlify variables.
@@ -55,11 +57,11 @@ Use `.env.example` as the source of truth for local and Netlify variables.
 Public values:
 
 ```bash
-NEXT_PUBLIC_SITE_URL=https://aquazul.jdintellicore.com
+NEXT_PUBLIC_SITE_URL=https://centro-odontologico-aquazul.netlify.app
 NEXT_PUBLIC_CALENDLY_URL=https://calendly.com/aquazul/consulta
 NEXT_PUBLIC_GOOGLE_CALENDAR_URL=https://calendar.google.com/calendar/u/0/r/eventedit
 NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL=https://www.google.com/maps?q=La%20Romana%2C%20Dominican%20Republic&output=embed
-NEXT_PUBLIC_WHATSAPP_URL=https://wa.me/18095550100
+NEXT_PUBLIC_WHATSAPP_URL=https://wa.me/18097707289
 ```
 
 Do not place Google Calendar API secrets in `NEXT_PUBLIC_*` variables. Future Calendar API integration should use server-only variables in a route handler or Netlify Function.
@@ -81,9 +83,9 @@ WHATSAPP_ACCESS_TOKEN=
 The repository includes `netlify.toml`.
 
 - Build command: `npm run build`
-- Publish directory: `.next`
+- Publish directory: `out`
 - Node version: `20`
-- Production domain: `aquazul.jdintellicore.com`
+- Production demo URL: `https://centro-odontologico-aquazul.netlify.app`
 
 Detailed GitHub, Netlify, SSL, environment variable, and Squarespace DNS instructions are in [DEPLOYMENT.md](./DEPLOYMENT.md).
 

@@ -26,7 +26,7 @@ NEXT_PUBLIC_SITE_URL=https://aquazul.jdintellicore.com
 NEXT_PUBLIC_CALENDLY_URL=https://calendly.com/aquazul/consulta
 NEXT_PUBLIC_GOOGLE_CALENDAR_URL=https://calendar.google.com/calendar/u/0/r/eventedit
 NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL=https://www.google.com/maps?q=La%20Romana%2C%20Dominican%20Republic&output=embed
-NEXT_PUBLIC_WHATSAPP_URL=https://wa.me/18095550100
+NEXT_PUBLIC_WHATSAPP_URL=https://wa.me/18097707289
 ```
 
 Only public browser-safe values should use `NEXT_PUBLIC_`.

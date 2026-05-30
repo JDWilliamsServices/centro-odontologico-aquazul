@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "20"
@@ -22,7 +22,13 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=(self)"
 
 [context.production.environment]
-  NEXT_PUBLIC_SITE_URL = "https://aquazul.jdintellicore.com"
+  NEXT_PUBLIC_SITE_URL = "https://centro-odontologico-aquazul.netlify.app"
+
+[[redirects]]
+  from = "/appointments"
+  to = "/citas"
+  status = 301
+  force = true
 
 [[headers]]
   for = "/_next/static/*"
