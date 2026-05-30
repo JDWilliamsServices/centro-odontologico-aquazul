@@ -17,7 +17,16 @@ export default function DoctorsPage() {
         description="Nuestros doctores combinan criterio estetico, precision tecnica y comunicacion clara para que cada paciente entienda su tratamiento."
         className="aqua-grid"
       >
-        <DoctorCards />
+        <div className="space-y-8">
+          <div className="overflow-hidden rounded-3xl border border-aqua-100 bg-aqua-950 shadow-soft">
+            <img
+              src="/images/aquazul-team-banner.png"
+              alt="Equipo clinico de Centro Odontologico AquaZul"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <DoctorCards />
+        </div>
       </Section>
       <section className="bg-white px-5 py-20 lg:px-8">
         <div className="mx-auto max-w-7xl rounded-[2rem] bg-ink p-8 text-white md:p-12">
